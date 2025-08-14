@@ -1,12 +1,13 @@
 [project]
 name = "streamlit-dev"
 version = "0.1.0"
-description = "Add your description here"
+description = "This repository is for exploring the Streamlit framework, using the book: Build Python Web Apps with Streamlit."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "matplotlib>=3.10.5",
     "openai>=1.99.9",
+    "pandas>=2.3.1",
     "python-dotenv>=1.1.1",
     "streamlit>=1.48.1",
 ]
