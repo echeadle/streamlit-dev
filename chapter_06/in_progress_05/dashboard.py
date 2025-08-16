@@ -1,11 +1,12 @@
 import streamlit as st
-from data_wrangling import prep_data
+from data_wrangling import apply_filters, prep_data
 from filter_panel import filter_panel
 
 st.set_page_config(layout='wide')
 
 data = prep_data()
-filter_panel(data)
-st.write(data.head(5))
+filters = filter_panel(data)
+main_df = apply_filters(data, filters) 
+st.write(main_df.head(5))
 
 

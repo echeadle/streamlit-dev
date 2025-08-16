@@ -11,3 +11,9 @@ def clean_column_names(df):
 @st.cache_data(show_spinner="Reading sales data...",ttl="1d")
 def prep_data():
   return clean_column_names(load_data())
+
+def apply_filters(df, filters):
+  for col, values in filters.items():
+    if values:
+      df = df[df[col].isin(values)]
+  return df
