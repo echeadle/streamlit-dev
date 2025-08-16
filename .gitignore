@@ -206,3 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# My Additions For Streamlit Development
+# Ignore environment variables and secrets files
+secrets.toml 
