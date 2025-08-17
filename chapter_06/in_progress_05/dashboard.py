@@ -7,6 +7,4 @@ st.set_page_config(layout='wide')
 data = prep_data()
 filters = filter_panel(data)
 main_df = apply_filters(data, filters) 
-st.write(main_df.head(5))
-
-
+st.write(main_
