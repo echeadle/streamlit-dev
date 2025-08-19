@@ -5,6 +5,9 @@ description = "This repository is for exploring the Streamlit framework, using t
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "db-dtypes>=1.4.3",
+    "google-cloud-bigquery>=3.35.1",
+    "google-cloud-bigquery-storage>=2.32.0",
     "humanize>=4.12.3",
     "matplotlib>=3.10.5",
     "openai>=1.99.9",
