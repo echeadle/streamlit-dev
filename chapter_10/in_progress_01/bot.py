@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI
 from graph import SupportAgentGraph
 
+# This Bot has no memory.
 class Bot:
   def __init__(self, api_keys):
     self.api_keys = api_keys
