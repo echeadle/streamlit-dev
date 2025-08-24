@@ -27,3 +27,8 @@ dependencies = [
     "streamlit>=1.48.1",
     "toml>=0.10.2",
 ]
+
+[tool.uv.workspace]
+members = [
+    "chapter_11",
+]
